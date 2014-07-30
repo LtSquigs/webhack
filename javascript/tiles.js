@@ -58,7 +58,7 @@ window.drawTile = function(row, col, id) {
   // Otherwise we position the image absolutely based off row/col size
   imgHtml.css('top', ((row - 1) * curTileSize) + 'px');
   imgHtml.css('left', (col * curTileSize) + 'px');
-  imgHtml.attr('src', 'static/images/16px/16-' + id + '.png');
+  imgHtml.attr('src', 'images/16px/16-' + id + '.png');
 
   // Add this class here so we can track later
   imgHtml.addClass('tile-' + row + '-' + col);
