@@ -1,0 +1,27 @@
+.activeCursor {
+  border: 1px white dotted;
+}
+
+body {
+  margin: 0px;
+}
+
+#terminal {
+  height: 100%;
+  width: 100%;
+}
+
+#tiles {
+  background: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+#realTiles {
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: relative;
+}
